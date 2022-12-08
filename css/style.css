@@ -149,14 +149,22 @@ h3 {
 }
 
 @media (orientation: portrait) {
+  .stat {
+    font-size: 50px;
+  }
   .bn5 {
-    font-size: 20px;
+    font-size: 40px;
   }
   #game {
+    font-size: 40px;
+    margin-top: 500px;
+    max-width: 800px;
+    max-height: 800px;
+  }
+  h3 {
     font-size: 30px;
-    margin-top: 400px;
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    -webkit-transform: translateY(500px);
+            transform: translateY(500px);
   }
 }
 /*# sourceMappingURL=style.css.map */
