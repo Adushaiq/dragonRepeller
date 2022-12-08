@@ -154,14 +154,23 @@ h3 {
 
 @media (orientation: portrait) {
   
-  .bn5 {
-    font-size: 20px;
+  .stat {
+    font-size: 50px;
   }
 
-
+  .bn5 {
+    font-size: 40px;
+  }
+  
   #game {
+    font-size: 40px;
+    margin-top: 500px;
+    max-width: 800px;
+    max-height: 800px;
+  }
+  
+  h3 {
     font-size: 30px;
-    margin-top: 400px;
-    transform: rotate(90deg);
+    transform: translateY(500px);
   }
 }
